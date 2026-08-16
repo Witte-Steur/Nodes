@@ -19,15 +19,22 @@
 body {
   color: var(--color--text);
   background-color: var(--color--page);
-}
-
-h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 80vh;
+}
+
+h1 {
   font-family: system-ui, sans-serif;
   font-size: 2rem;
   line-height: 3rem;
   font-weight: 500;
+
+  svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    fill: currentColor;
+  }
 }
