@@ -1,4 +1,3 @@
-` `
 <script lang="ts" setup>
   import { useSlots } from 'vue';
 
