@@ -1,6 +1,14 @@
 .Page {
-  border: 0.1rem solid #eee;
+  display: flex;
+  min-width: 50rem;
+  border: 0.1rem solid var(--color--border);
   border-radius: 0.25rem;
+
+  &--IconBar {
+    padding: 1rem 1.625rem;
+    border-right: 0.05rem solid var(--color--border);
+  }
+
   &--Content {
     padding: 1rem 2rem;
   }

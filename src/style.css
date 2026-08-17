@@ -1,12 +1,14 @@
 :root {
   --color--text: hsl(210, 10%, 10%);
   --color--page: hsl(40, 50%, 95%);
+  --color--border: hsl(210, 10%, 10%);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --color--text: hsl(40, 50%, 95%);
     --color--page: hsl(210, 10%, 10%);
+    --color--border: hsl(40, 50%, 95%);
   }
 }
 
@@ -25,6 +27,12 @@ body {
   min-height: 80vh;
 }
 
+svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
 h1 {
   font-family: system-ui, sans-serif;
   font-size: 2rem;
@@ -32,9 +40,6 @@ h1 {
   font-weight: 500;
 
   svg {
-    width: 1em;
-    height: 1em;
     vertical-align: -0.125em;
-    fill: currentColor;
   }
 }

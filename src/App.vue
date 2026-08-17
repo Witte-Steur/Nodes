@@ -1,11 +1,15 @@
-<script setup lang="ts">
+<script lang="ts" setup>
   import Page from './components/layout/Page.vue';
 
-  import Home from './components/icons/Home.vue';
+  import IconBar from './components/navigation/IconBar.vue';
 </script>
 
 <template>
   <Page>
-    <h1><Home /> Nodes</h1>
+    <template v-slot:iconBar>
+      <IconBar />
+    </template>
+
+    <h1>Nodes</h1>
   </Page>
 </template>
