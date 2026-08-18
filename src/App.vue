@@ -10,6 +10,6 @@
       <IconBar />
     </template>
 
-    <h1>Nodes</h1>
+    <RouterView />
   </Page>
 </template>
