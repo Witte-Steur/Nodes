@@ -6,6 +6,12 @@
   li {
     svg {
       vertical-align: -0.125em;
+      transition: transform 0.2s;
+    }
+
+    a:focus svg,
+    a:hover svg {
+      transform: scale(1.25);
     }
   }
 }

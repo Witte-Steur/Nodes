@@ -5,7 +5,7 @@ import { routes } from './configuration/routes.ts';
 
 import App from './App.vue';
 
-import './style.css';
+import './style.scss';
 
 const router = createRouter({
   history: createWebHistory(),
