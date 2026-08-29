@@ -1,7 +1,5 @@
 <script lang="ts" setup>
-  import Page from './components/layout/Page.vue';
-
-  import IconBar from './components/navigation/IconBar.vue';
+  import { Page, IconBar } from 'lib/components';
 </script>
 
 <template>

@@ -1,7 +1,7 @@
 import type { Component } from 'vue';
 
-import Home from '../components/pages/Home.vue';
-import Account from '../components/pages/Account.vue';
+import Home from '../pages/Home.vue';
+import Account from '../pages/Account.vue';
 
 interface Route {
   path: string;
