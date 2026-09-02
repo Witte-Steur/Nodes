@@ -21,10 +21,14 @@
 body {
   color: var(--color--text);
   background-color: var(--color--page);
+}
+
+#vue-app {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 80vh;
+  padding: 1rem;
 }
 
 svg {

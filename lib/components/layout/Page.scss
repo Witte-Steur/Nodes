@@ -1,6 +1,7 @@
 .Page {
   display: flex;
-  min-width: 50rem;
+  width: 100%;
+  max-width: 50rem;
   border: 0.1rem solid var(--color--border);
   border-radius: 0.25rem;
 
